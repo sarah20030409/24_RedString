@@ -1,9 +1,13 @@
-function App() {
+import React from "react";
+
+export default function App() {
   return (
-    <div>
-      <header></header>
+    <div className="bg-black h-screen">
+      <header>
+        <div>
+          <p className="text-3xl font-bold text-white">hii你好</p>
+        </div>
+      </header>
     </div>
   );
 }
-
-export default App;
