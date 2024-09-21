@@ -29,7 +29,7 @@ module.exports = {
         Serif: ['"Noto Serif TC"', "serif"],
       },
       screens: {
-        sm: "470px",
+        sm: "360px",
         md: "740px",
         lg: "1250px",
       },
