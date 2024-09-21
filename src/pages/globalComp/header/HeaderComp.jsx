@@ -9,7 +9,7 @@ export default function Header(){
         {to:"/sponsor",text:"贊助廠商"},
     ]
     return(
-        <div className="h-20 bg-white px-40 py-1">
+        <div className="h-20 bg-white px-40 py-1 ">
             <div className="flex justify-between items-center">
                 <div className="flex ">
                     <Link to="/"><img src={Logo} alt="赤弦獎" /></Link>

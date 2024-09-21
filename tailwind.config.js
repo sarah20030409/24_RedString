@@ -33,6 +33,35 @@ module.exports = {
         md: "740px",
         lg: "1250px",
       },
+      // Animation
+      keyframes: {
+        fadeInOut: {
+          "0%": {
+            opacity: "0",
+          },
+          "40%": {
+            opacity: "1",
+          },
+          "80%": {
+            opacity: "1",
+          },
+          "100%": {
+            opacity: "0",
+          },
+        },
+        fadeIn: {
+          "0%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          },
+        },
+      },
+      animation: {
+        fadeInOut: "fadeInOut 5s ease-in-out forwards",
+        fadeIn: "fadeIn 1s ease-in-out forwards",
+      },
     },
   },
   plugins: [],

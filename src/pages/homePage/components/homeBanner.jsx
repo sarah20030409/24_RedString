@@ -1,8 +1,9 @@
 import React from "react";
 
-export default function HomePage(){
+export default function HomeBanner() {
     return(
-        <div>
+        <div >
+
         </div>
     )
 }
