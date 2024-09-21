@@ -6,9 +6,40 @@
   font-family: "font-Serif";
 }
 
+@layer components {
+  /* Font style */
+  .BannerTitle {
+    @apply tracking-[10px] font-bold text-5xl drop-shadow-xl;
+  }
+  .SectionTitle {
+    @apply tracking-wide text-[28px] font-medium;
+  }
+  .MediumTitle {
+    @apply tracking-[4px] text-xl font-medium;
+  }
+  .SmallTitle {
+    @apply tracking-[4px] text-lg font-medium;
+  }
+  .NavText {
+    @apply tracking-[2px] text-lg text-RSblack font-normal hover:text-gray-400;
+  }
+  .PoetryText {
+    @apply tracking-[2px] text-base;
+  }
+  .DesText {
+    @apply tracking-[3px] text-base font-normal;
+  }
+  .MemberText {
+    @apply tracking-[2px] text-[22px];
+  }
+  .JobText {
+    @apply tracking-[2px] text-lg text-RSgoldDeep;
+  }
+}
+
 @layer base {
   * {
-    @apply selection:bg-RSredBrown duration-300;
+    @apply selection:bg-RSgoldDeep duration-300;
   }
   p,
   html,
@@ -25,6 +56,6 @@
   h5,
   h6,
   img {
-    @apply text-base font-Serif;
+    @apply text-base font-Serif text-white;
   }
 }
