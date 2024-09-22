@@ -13,8 +13,10 @@ export default function HomeSection1() {
     return (
         <div>
             <div className="bg-contain bg-top bg-no-repeat pt-16" style={{ backgroundImage: `url(${topCloud01})` }}>
-            <div data-aos="fade-up" className="bg-contain bg-no-repeat bg-center w-full flex justify-center" style={{ backgroundImage: `url(${titleFrame})` }}>
+            <div className="flex justify-center">
+            <div data-aos="fade-up" className="bg-contain bg-no-repeat bg-center flex justify-center w-[260px]" style={{ backgroundImage: `url(${titleFrame})` }}>
                 <h1 className="SectionTitle">比賽資訊</h1>
+            </div>
             </div>
 
             <div className="pt-16">
