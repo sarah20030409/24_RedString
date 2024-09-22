@@ -65,12 +65,17 @@ module.exports = {
           "0%, 100%": { transform: "translateX(100px)" },
           "50%": { transform: "translateX(-50px)" },
         },
+        GettingSmall: {
+          "0%": { transform: "scale(1.05)" },
+          "100%": { transform: "scale(0.85)" },
+        },
       },
       animation: {
         fadeInOut: "fadeInOut 5s ease-in-out forwards",
         fadeIn: "fadeIn 5s ease-in-out infinite",
         MoveHorizontal1: "MoveHorizontal1 20s ease-in-out infinite",
         MoveHorizontal2: "MoveHorizontal2 20s ease-in-out infinite",
+        GettingSmall: "GettingSmall 20s ease-in-out forwards",
       },
     },
   },

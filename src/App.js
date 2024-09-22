@@ -66,7 +66,7 @@ export default function App() {
         <header>
           <Header />
         </header>
-        <div className="pt-24 lg:px-[8%] md:px-10 sm:px-6">
+        <div className="pt-24">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />

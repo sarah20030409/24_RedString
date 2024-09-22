@@ -13,7 +13,7 @@ export default function HomeBanner() {
         <img src={bgSmoke} className="absolute left-0 top-1/2 w-full animate-fadeIn" alt="RedStringcloud"/>
         <img src={bottomCloud} className="absolute left-0 -bottom-[45%] w-full" alt="RedStringcloud"/>
         <div>
-        <img src={BigBannerRed} className="w-1/2 items-center mx-auto hover:translate-y-1 transition-all duration-1500 " alt="RedStringcloud" />
+        <img src={BigBannerRed} className="w-1/2 items-center mx-auto  duration-1500 animate-GettingSmall" alt="RedStringcloud" />
         <div>
         <img src={rightCloud} className="absolute right-16 top-1/3 w-[30%] animate-MoveHorizontal1 hover:blur-[1px]" alt="RedStringcloud"/>
         </div>

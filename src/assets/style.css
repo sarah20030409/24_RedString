@@ -12,6 +12,10 @@
     @apply bg-slate-100 absolute w-full  right-0 px-12 py-3 md:hidden;
   }
 
+  .ButtonTextStyle {
+    @apply text-RSredDeep tracking-[2px] font-medium text-nowrap text-2xl px-[75px] py-5 hover:bg-RSredDeep hover:rounded-full hover:text-white;
+  }
+
   /* Font style */
   .BannerTitle {
     @apply tracking-[10px] font-bold text-5xl duration-300 drop-shadow-xl;
@@ -54,6 +58,7 @@
   span,
   applet,
   object,
+  button,
   iframe,
   h1,
   h2,

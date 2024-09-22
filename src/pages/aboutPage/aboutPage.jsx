@@ -2,8 +2,8 @@ import React from "react";
 
 export default function AboutPage() {
     return (
-        <div>
-            <h1>Hi AboutPage</h1>
+        <div className="px-[7%]">
+            <h1 className="SmallTitle">Hi AboutPage</h1>
         </div>
     );
 }
