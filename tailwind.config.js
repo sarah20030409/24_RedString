@@ -57,10 +57,15 @@ module.exports = {
             opacity: "1",
           },
         },
+        MoveHorizontal: {
+          "0%, 100%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(100px)" },
+        },
       },
       animation: {
         fadeInOut: "fadeInOut 5s ease-in-out forwards",
         fadeIn: "fadeIn 1s ease-in-out forwards",
+        MoveHorizontal: "MoveHorizontal 20s ease-in-out infinite",
       },
     },
   },

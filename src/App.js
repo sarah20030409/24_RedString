@@ -34,11 +34,11 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <div className="bg-black h-screen ">
-        <header className="animate-fadeIn">
+      <div className="bg-black  h-[2000px]">
+        <header>
           <Header />
         </header>
-        <div className="animate-fadeIn">
+        <div className="pt-24 lg:px-[10%] md:px-10 sm:px-6">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />

@@ -7,9 +7,14 @@
 }
 
 @layer components {
+  /* components style */
+  .NavBarStyle {
+    @apply bg-slate-100 absolute w-full  right-0 px-12 py-3 md:hidden;
+  }
+
   /* Font style */
   .BannerTitle {
-    @apply tracking-[10px] font-bold text-5xl drop-shadow-xl;
+    @apply tracking-[10px] font-bold text-5xl duration-300 drop-shadow-xl;
   }
   .SectionTitle {
     @apply tracking-wide text-[28px] font-medium;
@@ -41,6 +46,7 @@
   * {
     @apply selection:bg-RSgoldDeep duration-300;
   }
+  ,
   p,
   html,
   body,
@@ -56,6 +62,6 @@
   h5,
   h6,
   img {
-    @apply text-base font-Serif text-white;
+    @apply text-base font-Serif text-white select-none;
   }
 }
