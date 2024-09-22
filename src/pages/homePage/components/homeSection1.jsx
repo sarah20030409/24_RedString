@@ -1,0 +1,42 @@
+import React from "react";
+import topCloud01 from "../../../assets/imgs/homePage/sction01/section1CloudImg01.webp"
+import topCloud02 from "../../../assets/imgs/homePage/sction01/section1CloudImg02.webp"
+import titleFrame from "../../../assets/imgs/homePage/sction01/section01TextFrame.svg"
+import section01Img01 from "../../../assets/imgs/homePage/sction01/section01img01.webp"
+import section01Img02 from "../../../assets/imgs/homePage/sction01/section01img02.webp"
+import comp01 from "../../../assets/imgs/homePage/sction01/section01GoldTitle01.svg"
+import comp02 from "../../../assets/imgs/homePage/sction01/section01GoldTitle02.svg"
+import fullCloud from "../../../assets/imgs/homePage/sction01/section01FullCloud.png"
+
+export default function HomeSection1() {
+
+    return (
+        <div>
+            <div className="bg-contain bg-top bg-no-repeat pt-16" style={{ backgroundImage: `url(${topCloud01})` }}>
+            <div data-aos="fade-up" className="bg-contain bg-no-repeat bg-center w-full flex justify-center" style={{ backgroundImage: `url(${titleFrame})` }}>
+                <h1 className="SectionTitle">比賽資訊</h1>
+            </div>
+
+            <div className="pt-16">
+                <div className="flex justify-between items-center" data-aos="fade-up">
+                    <img className="w-[65%]" src={section01Img01} alt="赤弦獎" />
+                    <div>
+                        <img className="items-center mx-auto mb-3" src={comp01} alt="赤弦獎" />
+                        <p className="SmallTitle text-center leading-10">11/9-11/10</p>
+                        <p className="SmallTitle text-center">◇ 國立臺北科技大學中正館一樓 ◇</p>
+                    </div>
+                </div>
+                <div className="flex justify-between items-center" data-aos="fade-up">
+                    <div>
+                    <img className="items-center mx-auto mb-3" src={comp02} alt="赤弦獎" />
+                        <p className="SmallTitle text-center leading-10">12/15</p>
+                        <p className="SmallTitle text-center">◇ 國立臺北科技大學中正館一樓 ◇</p>
+                    </div>
+                    <img className="w-[65%]" src={section01Img02} alt="赤弦獎" />
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+    )
+}

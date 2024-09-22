@@ -61,12 +61,12 @@ export default function App() {
   }
 
   return (
-    <BrowserRouter>
-      <div className="bg-black  min-h-screen">
+    <BrowserRouter className="overflow-hidden">
+      <div className="bg-black  min-h-screen ">
         <header>
           <Header />
         </header>
-        <div className="pt-24 lg:px-[10%] md:px-10 sm:px-6">
+        <div className="pt-24 lg:px-[8%] md:px-10 sm:px-6">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />

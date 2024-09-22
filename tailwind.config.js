@@ -50,25 +50,25 @@ module.exports = {
           },
         },
         fadeIn: {
-          "0%": {
+          "0%,100%": {
             opacity: "0",
           },
-          "100%": {
+          "50%": {
             opacity: "1",
           },
         },
         MoveHorizontal1: {
-          "0%, 100%": { transform: "translateX(0)" },
-          "50%": { transform: "translateX(100px)" },
+          "0%, 100%": { transform: "translateX(-50px)" },
+          "50%": { transform: "translateX(50px)" },
         },
         MoveHorizontal2: {
-          "0%, 100%": { transform: "translateX(0)" },
-          "50%": { transform: "translateX(-100px)" },
+          "0%, 100%": { transform: "translateX(100px)" },
+          "50%": { transform: "translateX(-50px)" },
         },
       },
       animation: {
         fadeInOut: "fadeInOut 5s ease-in-out forwards",
-        fadeIn: "fadeIn 1s ease-in-out forwards",
+        fadeIn: "fadeIn 5s ease-in-out infinite",
         MoveHorizontal1: "MoveHorizontal1 20s ease-in-out infinite",
         MoveHorizontal2: "MoveHorizontal2 20s ease-in-out infinite",
       },

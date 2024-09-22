@@ -8,17 +8,17 @@ import BigBannerRed from "../../../assets/imgs/homePage/BigBannerRedString.webp"
 
 export default function HomeBanner() {
     return(
-        <div className="pt-20 pb-[20%]">
-        <img src={topLeftCloud} className="absolute left-0 top-1/4 w-1/2" alt="RedStringcloud"/>
-        <img src={bgSmoke} className="absolute left-0 top-1/2 w-full" alt="RedStringcloud"/>
+        <div className="pt-20 pb-[12%] ">
+        <img src={topLeftCloud} className="absolute left-0 top-1/4 w-1/2 " alt="RedStringcloud"/>
+        <img src={bgSmoke} className="absolute left-0 top-1/2 w-full animate-fadeIn" alt="RedStringcloud"/>
         <img src={bottomCloud} className="absolute left-0 -bottom-[45%] w-full" alt="RedStringcloud"/>
         <div>
         <img src={BigBannerRed} className="w-1/2 items-center mx-auto hover:translate-y-1 transition-all duration-1500 " alt="RedStringcloud" />
         <div>
-        <img src={rightCloud} className="absolute right-16 top-1/4 w-1/3 h-1/5 animate-MoveHorizontal1" alt="RedStringcloud"/>
+        <img src={rightCloud} className="absolute right-16 top-1/3 w-[30%] animate-MoveHorizontal1 hover:blur-[1px]" alt="RedStringcloud"/>
         </div>
         <div>
-        <img src={leftCloud} className="absolute left-0 top-2/3 w-1/3 h-1/5 animate-MoveHorizontal2" alt="RedStringcloud"/>
+        <img src={leftCloud} className="absolute left-0 top-2/3 w-[25%]  animate-MoveHorizontal2 hover:blur-[1px]" alt="RedStringcloud"/>
         </div>
         </div>
         <div className="pt-24" data-aos="fade-up">

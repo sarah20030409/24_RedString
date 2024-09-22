@@ -17,13 +17,13 @@
     @apply tracking-[10px] font-bold text-5xl duration-300 drop-shadow-xl;
   }
   .SectionTitle {
-    @apply tracking-wide text-[28px] font-medium;
+    @apply tracking-wide text-white text-[28px] font-medium;
   }
   .MediumTitle {
     @apply tracking-[4px] text-xl font-medium;
   }
   .SmallTitle {
-    @apply tracking-[4px] text-lg font-medium;
+    @apply tracking-[4px] text-white text-lg font-medium;
   }
   .NavText {
     @apply tracking-[2px] text-lg text-RSblack font-normal hover:text-gray-400;
