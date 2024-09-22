@@ -10,7 +10,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+const imageToPreload = ["../../assets/imgs/homepage/BigBannerRedString.webp"];
+
 export default function App() {
+  const [loding, setloding] = useState(true);
   // AOS init
   useEffect(() => {
     AOS.init({
@@ -18,14 +21,39 @@ export default function App() {
     });
   }, []);
 
-  const [loding, setloding] = useState(true);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setloding(false);
+  //   }, 6000);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setloding(false);
-    }, 6000);
+    const preloadImage = async () => {
+      const imagePromise = imageToPreload.map((src) => {
+        return new Promise((resolve, reject) => {
+          const img = new Image();
+          img.src = src;
+          img.onload = resolve;
+          img.onerror = reject;
+        });
+      });
+      try {
+        await Promise.all(imagePromise);
+        const timer = setTimeout(() => {
+          setloding(false);
+        }, 6000);
+        return () => clearTimeout(timer);
+      } catch (err) {
+        console.log("Error loading images", err);
+        const timer = setTimeout(() => {
+          setloding(false);
+        }, 6000);
+        return () => clearTimeout(timer);
+      }
+    };
 
-    return () => clearTimeout(timer);
+    preloadImage();
   }, []);
 
   if (loding) {
@@ -34,7 +62,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <div className="bg-black  h-[2000px]">
+      <div className="bg-black  min-h-screen">
         <header>
           <Header />
         </header>
