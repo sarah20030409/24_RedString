@@ -62,12 +62,12 @@ module.exports = {
           "50%": { transform: "translateX(50px)" },
         },
         MoveHorizontal2: {
-          "0%, 100%": { transform: "translateX(100px)" },
-          "50%": { transform: "translateX(-50px)" },
+          "0%, 100%": { transform: "translateX(140px)" },
+          "50%": { transform: "translateX(-10px)" },
         },
         GettingSmall: {
-          "0%": { transform: "scale(1.05)" },
-          "100%": { transform: "scale(0.85)" },
+          "0%, 100%": { transform: "scale(1.0)" },
+          "50%": { transform: "scale(0.95)" },
         },
       },
       animation: {
@@ -75,7 +75,7 @@ module.exports = {
         fadeIn: "fadeIn 5s ease-in-out infinite",
         MoveHorizontal1: "MoveHorizontal1 20s ease-in-out infinite",
         MoveHorizontal2: "MoveHorizontal2 20s ease-in-out infinite",
-        GettingSmall: "GettingSmall 20s ease-in-out forwards",
+        GettingSmall: "GettingSmall 20s ease-in-out infinite",
       },
     },
   },

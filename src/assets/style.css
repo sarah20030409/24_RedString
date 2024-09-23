@@ -13,36 +13,42 @@
   }
 
   .ButtonTextStyle {
-    @apply text-RSredDeep tracking-[2px] font-medium text-nowrap text-2xl px-[75px] py-5 hover:bg-RSredDeep hover:rounded-full hover:text-white;
+    @apply text-RSredDeep tracking-[2px] font-medium text-nowrap  text-2xl px-[75px] BaseFamily py-5 hover:bg-RSredLight hover:rounded-full hover:text-white;
   }
 
   /* Font style */
+  .BaseFamily {
+    @apply font-Serif;
+  }
   .BannerTitle {
-    @apply tracking-[10px] font-bold text-5xl duration-300 drop-shadow-xl;
+    @apply tracking-[10px] font-bold text-5xl duration-300 drop-shadow-xl BaseFamily;
   }
   .SectionTitle {
-    @apply tracking-wide text-white text-[28px] font-medium;
+    @apply tracking-wide text-white text-[26px] font-medium BaseFamily max-lg:text-2xl  max-md:text-lg;
   }
   .MediumTitle {
-    @apply tracking-[4px] text-xl font-medium;
+    @apply tracking-[4px] text-xl font-medium BaseFamily max-lg:text-lg max-md:text-sm;
   }
   .SmallTitle {
-    @apply tracking-[4px] text-white text-lg font-medium;
+    @apply tracking-[4px] text-white text-lg font-medium BaseFamily max-lg:text-sm max-lg:text-nowrap max-lg:tracking-[1px] max-md:tracking-[2px];
   }
   .NavText {
-    @apply tracking-[2px] text-lg text-RSblack font-normal hover:text-gray-400;
+    @apply tracking-[2px] text-lg text-RSblack font-normal hover:text-gray-400 BaseFamily;
   }
   .PoetryText {
-    @apply tracking-[2px] text-base;
+    @apply tracking-[2px] text-base text-white BaseFamily;
   }
   .DesText {
-    @apply tracking-[3px] text-base font-normal;
+    @apply tracking-[3px] text-base font-normal text-white BaseFamily;
   }
   .MemberText {
-    @apply tracking-[2px] text-[22px];
+    @apply tracking-[2px] text-[22px] text-white BaseFamily;
   }
   .JobText {
-    @apply tracking-[2px] text-lg text-RSgoldDeep;
+    @apply tracking-[2px] text-lg text-RSgoldDeep BaseFamily;
+  }
+  .footerText {
+    @apply tracking-[1px] text-base text-white BaseFamily;
   }
 }
 

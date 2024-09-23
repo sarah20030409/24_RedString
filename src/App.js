@@ -5,6 +5,7 @@ import AboutPage from "./pages/aboutPage/aboutPage";
 import ParticipatePage from "./pages/participatePage/ParticipatePage";
 import SponsorPage from "./pages/sponsorPage/SponsorPage";
 import LodingPage from "./pages/loadingPage/loadingPage";
+import Footer from "./pages/globalComp/footer/FooterComp";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 // AOSanim
 import AOS from "aos";
@@ -13,13 +14,14 @@ import "aos/dist/aos.css";
 const imageToPreload = ["../../assets/imgs/homepage/BigBannerRedString.webp"];
 
 export default function App() {
-  const [loding, setloding] = useState(true);
   // AOS init
   useEffect(() => {
     AOS.init({
       duration: 2000,
     });
   }, []);
+
+  const [loding, setloding] = useState(true);
 
   // useEffect(() => {
   //   const timer = setTimeout(() => {
@@ -74,6 +76,9 @@ export default function App() {
             <Route path="/sponsor" element={<SponsorPage />} />
           </Routes>
         </div>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </BrowserRouter>
   );
