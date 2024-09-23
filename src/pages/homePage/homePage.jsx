@@ -9,7 +9,7 @@ export default function HomePage() {
     <div className="px-[7%]">
       <HomeBanner  />
     </div>
-    <div className="pt-[10%] px-[7%]">
+    <div className="pt-[10%] px-[5%]">
       <HomeSection1 />
     </div>
     <div>
