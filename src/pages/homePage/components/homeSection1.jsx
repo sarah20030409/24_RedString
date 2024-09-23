@@ -9,6 +9,7 @@ import comp02 from "../../../assets/imgs/homePage/sction01/section01GoldTitle02.
 import fullCloud from "../../../assets/imgs/homePage/sction01/section01FullCloud.png"
 import bottomCloud from "../../../assets/imgs/homePage/sction01/section01BottomImg.png"
 import blurBtn from "../../../assets/imgs/BTNbgBlur.webp"
+import { Link } from "react-router-dom";
 
 export default function HomeSection1() {
 
@@ -44,7 +45,7 @@ export default function HomeSection1() {
 
             <div className="pt-[5%] bg-contain  bg-no-repeat bg-left max-lg:pt-[10%]" style={{ backgroundImage: `url(${bottomCloud})` }}>
                 <div className="flex justify-center pb-5" data-aos="fade-up">
-                    <button className=" bg-contain bg-no-repeat bg-center flex justify-center w-[260px] p-1 max-lg:scale-90" style={{ backgroundImage: `url(${blurBtn})` }}><p className="ButtonTextStyle">比賽須知</p></button>
+                    <Link to="/info"><button className=" bg-contain bg-no-repeat bg-center flex justify-center w-[260px] p-1 max-lg:scale-90" style={{ backgroundImage: `url(${blurBtn})` }}><p className="ButtonTextStyle">比賽須知</p></button></Link>
                 </div>
             </div>
             </div>
