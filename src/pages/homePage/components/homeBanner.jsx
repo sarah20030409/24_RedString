@@ -15,10 +15,10 @@ export default function HomeBanner() {
         <div>
         <img src={BigBannerRed} className="w-1/2 items-center mx-auto  duration-1500 animate-GettingSmall max-lg:w-2/3 max-md:w-4/5 " alt="RedStringcloud" />
         <div>
-        <img src={rightCloud} className="absolute right-16 top-1/3 w-[28%] animate-MoveHorizontal1 hover:blur-[1px] max-lg:w-[35%] max-lg:top-1/4 max-md:w-1/3 max-md:top-[30%] max-xs:top-[35%]" alt="RedStringcloud"/>
+        <img src={rightCloud} className="absolute right-16 top-[25%] w-[28%] animate-MoveHorizontal1 hover:blur-[1px] max-lg:top-[28%] max-md:top-[35%] max-md:w-[35%] max-sm:top-[35%] " alt="RedStringcloud"/>
         </div>
         <div>
-        <img src={leftCloud} className="absolute left-0 top-3/4 w-[25%]  animate-MoveHorizontal2 hover:blur-[1px] max-lg:w-[33%] max-lg:top-[80%] max-md:top-[70%] max-sm:top-[70%]" alt="RedStringcloud"/>
+        <img src={leftCloud} className="absolute left-0 top-[90%] w-[25%]  animate-MoveHorizontal2 hover:blur-[1px] max-lg:top-[70%] max-md:top-[70%] max-md:w-[35%] max-sm:top-[65%] " alt="RedStringcloud"/>
         </div>
         </div>
         <div className="pt-24 max-lg:pt-20 max-xs:pt-10" data-aos="fade-up">
