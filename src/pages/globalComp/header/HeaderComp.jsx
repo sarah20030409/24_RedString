@@ -18,7 +18,7 @@ export default function Header(){
         {to:"/sponsor",text:"贊助廠商"},
     ]
     return(
-        <div className="fixed top-0 w-full h-20 bg-white z-50 lg:px-[10%] py-1 md:px-10 sm:px-6">
+        <div className="fixed top-0 w-full h-20 bg-white z-50 px-[10%] py-1 ">
             <div className="flex justify-between items-center">
                 <div className="flex ">
                     <Link to="/" onClick={handleNavBar=>setOpen(false)}><img className="scale-90 " src={Logo} alt="赤弦獎" /></Link>

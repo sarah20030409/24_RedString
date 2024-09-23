@@ -30,7 +30,7 @@
     @apply tracking-[4px] text-xl font-medium BaseFamily max-lg:text-lg max-md:text-sm;
   }
   .SmallTitle {
-    @apply tracking-[4px] text-white text-lg font-medium BaseFamily max-lg:text-sm max-lg:text-nowrap max-lg:tracking-[1px] max-md:tracking-[2px];
+    @apply tracking-[4px] text-white text-lg font-medium BaseFamily max-lg:text-sm max-lg:text-nowrap max-lg:tracking-[1px] max-md:tracking-[2px] max-sm:text-xs;
   }
   .NavText {
     @apply tracking-[2px] text-lg text-RSblack font-normal hover:text-gray-400 BaseFamily;
