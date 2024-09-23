@@ -15,10 +15,10 @@ export default function HomeBanner() {
         <div>
         <img src={BigBannerRed} className="w-1/2 items-center mx-auto  duration-1500 animate-GettingSmall max-lg:w-2/3 max-md:w-[85%] " alt="RedStringcloud" />
         <div>
-        <img src={rightCloud} className="absolute right-16 top-72 w-[28%] animate-MoveHorizontal1 hover:blur-[1px] max-lg:top-64 max-md:top-[35%]" alt="RedStringcloud"/>
+        <img src={rightCloud} className="absolute right-16 top-72 w-[28%] animate-MoveHorizontal1 hover:blur-[1px] max-lg:top-64 max-md:hidden" alt="RedStringcloud"/>
         </div>
         <div>
-        <img src={leftCloud} className="absolute left-0 top-[600px] w-[25%]  animate-MoveHorizontal2 hover:blur-[1px] max-lg:top-[450px] max-md:top-[63%]" alt="RedStringcloud"/>
+        <img src={leftCloud} className="absolute left-0 top-[600px] w-[25%]  animate-MoveHorizontal2 hover:blur-[1px] max-lg:top-[450px] max-md:hidden" alt="RedStringcloud"/>
         </div>
         </div>
         <div className="pt-24 max-lg:pt-20 max-xs:pt-10" data-aos="fade-up">
