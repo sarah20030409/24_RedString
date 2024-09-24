@@ -22,9 +22,9 @@ export default function Footer(){
                     <a href="https://www.youtube.com/@ntut1272" target="_blank" rel="noreferrer"><img className="w-10" src={YTicon} alt="Red String" /></a>
                 </div>
             </div>
-            <div>
+            {/* <div>
                 <h2 className="footerText text-center bg-RSredDeep py-5">Copyright © 2024 采音吉他社. All rights reserved.</h2>
-            </div>
+            </div> */}
         </div>
     )
 }
