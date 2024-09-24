@@ -7,7 +7,7 @@ import SponsorPage from "./pages/sponsorPage/SponsorPage";
 import LodingPage from "./pages/loadingPage/loadingPage";
 import Footer from "./pages/globalComp/footer/FooterComp";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-// AOSanim
+import ScrollToTop from "./pages/globalComp/scrollToTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -73,6 +73,7 @@ export default function App() {
           <Header />
         </header>
         <div className="pt-24">
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
