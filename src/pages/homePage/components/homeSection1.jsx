@@ -44,8 +44,8 @@ export default function HomeSection1() {
             <div className="py-[5%]"></div>
 
             <div className="pt-[5%] bg-contain  bg-no-repeat bg-left max-lg:pt-[10%] max-md:pt-[20%]" style={{ backgroundImage: `url(${bottomCloud})` }}>
-                <div data-aos="fade-up" className="flex justify-center pb-5" >
-                    <Link to="/info"><button className="ButtonStyle" style={{ backgroundImage: `url(${blurBtn})` }}><p className="ButtonTextStyle">比賽須知</p></button></Link>
+                <div  className="flex justify-center pb-5" >
+                    <Link to="/info"><button data-aos="fade-up" className="ButtonStyle" style={{ backgroundImage: `url(${blurBtn})` }}><p className="ButtonTextStyle">比賽須知</p></button></Link>
                 </div>
             </div>
             </div>

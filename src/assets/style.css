@@ -24,7 +24,7 @@
     @apply font-Serif;
   }
   .BannerTitle {
-    @apply tracking-[10px] font-bold text-5xl duration-300 drop-shadow-xl BaseFamily;
+    @apply tracking-[10px] font-bold text-white text-5xl duration-300 drop-shadow-xl BaseFamily max-md:text-4xl;
   }
   .SectionTitle {
     @apply tracking-wide text-white text-[26px] font-medium BaseFamily max-lg:text-2xl  max-md:text-lg;

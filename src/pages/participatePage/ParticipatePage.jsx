@@ -1,9 +1,10 @@
 import React from "react";
+import TopBanner from "../banner/TopBanner";
 
 export default function ParticipatePage() {
     return (
         <div>
-            <h1>Hi ParticipatePage</h1>
+            <TopBanner title={"比賽須知"}/>
         </div>
     );
 }

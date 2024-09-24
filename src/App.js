@@ -14,6 +14,7 @@ import "aos/dist/aos.css";
 const imageToPreload = [
   "../../assets/imgs/homepage/BigBannerRedString.webp",
   "../../assets/imgs/homepage/BgCloud04.webp",
+  "../../assets/imgs/banner/RedCircle.png",
 ];
 
 export default function App() {
