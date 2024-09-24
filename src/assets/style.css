@@ -9,7 +9,7 @@
 @layer components {
   /* components style */
   .NavBarStyle {
-    @apply bg-slate-100 absolute w-full  right-0 px-12 py-3 md:hidden;
+    @apply bg-slate-100 absolute w-full  right-0 px-12 py-3 md:hidden max-md:top-16;
   }
 
   .ButtonTextStyle {
