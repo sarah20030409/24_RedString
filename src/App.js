@@ -67,7 +67,7 @@ export default function App() {
 
   return (
     <BrowserRouter className="overflow-hidden">
-      <div className="bg-black  min-h-screen ">
+      <div className="bg-black  h-full ">
         <header>
           <Header />
         </header>
@@ -79,7 +79,9 @@ export default function App() {
             <Route path="/sponsor" element={<SponsorPage />} />
           </Routes>
         </div>
-        <footer>{/* <Footer /> */}</footer>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </BrowserRouter>
   );
