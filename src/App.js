@@ -11,7 +11,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const imageToPreload = ["../../assets/imgs/homepage/BigBannerRedString.webp"];
+const imageToPreload = [
+  "../../assets/imgs/homepage/BigBannerRedString.webp",
+  "../../assets/imgs/homepage/BgCloud04.webp",
+];
 
 export default function App() {
   // AOS init
@@ -76,9 +79,7 @@ export default function App() {
             <Route path="/sponsor" element={<SponsorPage />} />
           </Routes>
         </div>
-        <footer>
-          <Footer />
-        </footer>
+        <footer>{/* <Footer /> */}</footer>
       </div>
     </BrowserRouter>
   );
