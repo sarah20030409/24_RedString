@@ -27,7 +27,7 @@
     @apply tracking-wide text-white text-[26px] font-medium BaseFamily max-lg:text-2xl  max-md:text-lg;
   }
   .MediumTitle {
-    @apply tracking-[4px] text-xl font-medium BaseFamily max-lg:text-lg max-md:text-sm;
+    @apply tracking-[4px] text-xl font-medium BaseFamily max-lg:text-lg max-md:text-sm max-md:tracking-[3px];
   }
   .SmallTitle {
     @apply tracking-[4px] text-white text-lg font-medium BaseFamily max-lg:text-sm max-lg:text-nowrap max-lg:tracking-[1px] max-md:tracking-[2px] max-sm:text-xs;
