@@ -23,7 +23,7 @@ export default function HomeSection1() {
             </div>
 
             <div className="pt-5 bg-contain  bg-no-repeat bg-center max-md:pt-1" style={{ backgroundImage: `url(${fullCloud})` }}>
-                <div className="flex justify-between items-center max-md:block " data-aos="fade-up">
+                <div data-aos="fade-up" className="flex justify-between items-center max-md:block " >
                     <img className="w-[65%] max-md:w-full" src={section01Img01} alt="赤弦獎" />
                     <div>
                         <img className="items-center mx-auto mb-3 max-md:w-[28px] max-md:mb-1" src={comp01} alt="赤弦獎" />
@@ -44,7 +44,7 @@ export default function HomeSection1() {
             <div className="py-[5%]"></div>
 
             <div className="pt-[5%] bg-contain  bg-no-repeat bg-left max-lg:pt-[10%] max-md:pt-[20%]" style={{ backgroundImage: `url(${bottomCloud})` }}>
-                <div className="flex justify-center pb-5" data-aos="fade-up">
+                <div data-aos="fade-up" className="flex justify-center pb-5" >
                     <Link to="/info"><button className=" bg-contain bg-no-repeat bg-center flex justify-center w-[260px] p-1 max-lg:scale-90 max-md:scale-75" style={{ backgroundImage: `url(${blurBtn})` }}><p className="ButtonTextStyle">比賽須知</p></button></Link>
                 </div>
             </div>
