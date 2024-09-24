@@ -8,7 +8,7 @@ import BigBannerRed from "../../../assets/imgs/homePage/BigBannerRedString.webp"
 
 export default function HomeBanner() {
     return(
-        <div className="pt-20 pb-[12%]  max-md:pt-[30%]">
+        <div className="pt-20 pb-[12%]  max-md:pt-[25%]">
         <img src={topLeftCloud} className="absolute left-0 top-1/4 w-1/2 max-lg:w-2/3" alt="RedStringcloud"/>
         <img src={bgSmoke} className="absolute left-0 top-1/2 w-full animate-fadeIn" alt="RedStringcloud"/>
         <img src={bottomCloud} className="absolute left-0 -bottom-[45%] w-full max-lg:-bottom-[8%] max-md:bottom-[15%] max-sm:bottom-[15%]" alt="RedStringcloud"/>
