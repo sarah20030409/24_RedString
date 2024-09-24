@@ -15,6 +15,9 @@
   .ButtonTextStyle {
     @apply text-RSredDeep tracking-[2px] font-medium text-nowrap  text-2xl px-[75px] BaseFamily py-5 hover:bg-RSredLight hover:rounded-full hover:text-white;
   }
+  .ButtonStyle {
+    @apply bg-contain bg-no-repeat bg-center flex justify-center w-[260px] p-1 max-lg:scale-90 max-md:scale-75;
+  }
 
   /* Font style */
   .BaseFamily {
