@@ -19,7 +19,7 @@
     @apply bg-contain bg-no-repeat bg-center flex justify-center w-[260px] p-1 max-lg:scale-90 max-md:scale-75;
   }
   .MemberDisplaySetup {
-    @apply flex justify-around px-[15%] pt-24 max-lg:px-[10%];
+    @apply flex justify-around px-[15%] pt-24 max-lg:px-[10%] max-md:px-[7%];
   }
 
   /* Font style */
@@ -48,7 +48,7 @@
     @apply tracking-[3px] text-base font-normal text-white BaseFamily max-lg:text-[15px];
   }
   .MemberText {
-    @apply tracking-[2px] text-[22px] text-white BaseFamily;
+    @apply tracking-[2px] text-[22px] text-white BaseFamily max-lg:text-[18px];
   }
   .JobText {
     @apply tracking-[2px] text-lg text-RSgoldDeep BaseFamily;
