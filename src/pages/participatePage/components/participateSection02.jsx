@@ -68,7 +68,7 @@ export default function ParticipateSection02() {
             className="ButtonStyle"
             style={{ backgroundImage: `url(${blurBtn})` }}
           >
-            <p className="ButtonTextStyle">點擊下載</p>
+            <p className="ButtonTextStyle">我要報名</p>
           </button>
         </a>
       </div>
