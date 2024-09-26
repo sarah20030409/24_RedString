@@ -11,8 +11,8 @@ export default function ParticipateSection01() {
         <div>
             <div className="bg-contain bg-no-repeat bg-center" style={{ backgroundImage: `url(${bgCloud})` }}>
                 <div className="flex justify-center pb-14 max-md:pb-8">
-                <div data-aos="fade-up" className="bg-contain bg-no-repeat bg-center flex justify-center w-[390px] p-1 m-1" style={{ backgroundImage: `url(${titleFrame})` }}>
-                <h1 className="SectionTitle">24屆赤弦獎參賽簡章</h1>
+                <div data-aos="fade" className="bg-contain bg-no-repeat bg-center flex justify-center w-[390px] p-1 m-1" style={{ backgroundImage: `url(${titleFrame})` }}>
+                <h1 className="SectionTitle tracking-[5px]">24屆赤弦獎參賽簡章</h1>
                 </div>
                 </div>
                 <div className="flex justify-center">
@@ -20,8 +20,8 @@ export default function ParticipateSection01() {
                 </div>
 
                 <div className="flex justify-center pb-14 mt-32 max-md:pb-8 max-md:mt-24">
-                <div data-aos="fade-up" className="bg-contain bg-no-repeat bg-center flex justify-center w-[410px] p-1 m-1" style={{ backgroundImage: `url(${titleFrame})` }}>
-                <h1 className="SectionTitle">24屆赤弦獎初賽報名須知</h1>
+                <div data-aos="fade" className="bg-contain bg-no-repeat bg-center flex justify-center w-[410px] p-1 m-1" style={{ backgroundImage: `url(${titleFrame})` }}>
+                <h1 className="SectionTitle tracking-[3px]">24屆赤弦獎初賽報名須知</h1>
                 </div>
                 </div>
                 <div className="flex justify-center">
