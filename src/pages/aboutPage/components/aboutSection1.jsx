@@ -17,7 +17,7 @@ export default function AboutSection1(){
                 <div className="absolute left-0 w-[28%] max-md:w-[50%] max-md:opacity-55"><img src={redLeft} alt="red string"/></div>
             <div data-aos="fade">
                 <h2 className="PoetryText text-center text-RSgoldDeep leading-10">潮汐之間，長退相偎。你我，沈醉於聲。</h2>
-                <p  className="PoetryText text-center leading-10 max-md:leading-8 max-md:px-[10%]">夜晚是夢境的載體，承載著人們心中的嚮往與希望。<br/>
+                <p  className="PoetryText text-center leading-10 max-md:leading-8 max-md:px-[5%] ">夜晚是夢境的載體，承載著人們心中的嚮往與希望。<br/>
 我們在月光中細數往事，在星空下編織夢想。<br/>
 夜幕低垂，思緒如同星光般閃爍，將日間的繁忙與喧囂拋諸腦後，徜徉在屬於自己的夢境之中。<br/>
 魂牽夢縈；日夜交錯。<br/>

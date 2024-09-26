@@ -48,10 +48,10 @@
     @apply tracking-[3px] text-base font-normal text-white BaseFamily max-lg:text-[15px];
   }
   .MemberText {
-    @apply tracking-[2px] text-[22px] text-white BaseFamily max-lg:text-[18px];
+    @apply tracking-[2px] text-[22px] text-white BaseFamily max-lg:text-[18px] max-md:text-base;
   }
   .JobText {
-    @apply tracking-[2px] text-lg text-RSgoldDeep BaseFamily;
+    @apply tracking-[2px] text-lg text-RSgoldDeep BaseFamily max-md:text-sm;
   }
   .footerText {
     @apply tracking-[1px] text-base text-white BaseFamily;

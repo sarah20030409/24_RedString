@@ -20,7 +20,7 @@ export default function About03Info({memberNum}) {
 
     return(
             <div>
-            <img className="w-60 items-center mx-auto max-lg:w-48 max-md:w-[150px]" src={membersImg[memberNum]} alt="red string" />
+            <img className="w-60 items-center mx-auto max-lg:w-48 max-md:w-[140px]" src={membersImg[memberNum]} alt="red string" />
             <p className="JobText text-center mt-4">{memberJob[memberNum]}</p>
             <p className="MemberText text-center">{memberName[memberNum]}</p>
             </div>

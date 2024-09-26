@@ -8,7 +8,7 @@ export default function AboutSection03() {
    return(
     <div className="bg-contain bg-no-repeat bg-top mb-48 max-md:mb-40" style={{backgroundImage: `url(${bgCloud01})`}}>
         <div className="bg-contain bg-no-repeat bg-bottom" style={{backgroundImage: `url(${bgCloud02})`}}>
-        <div className="pb-40 max-lg:pb-28">
+        <div className="pb-40 max-lg:pb-28 max-md:pb-20">
             <p className="SectionTitle tracking-[5px] text-center max-lg:pb-2">籌備團隊</p>
             <p className="TsaiYin text-center pt-1">&#123;采音吉他社&#125;</p>
         </div>
