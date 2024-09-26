@@ -21,6 +21,9 @@
   .MemberDisplaySetup {
     @apply flex justify-around px-[15%] pt-24 max-lg:px-[10%] max-md:px-[7%] max-md:pt-20;
   }
+  .swiperStyle {
+    @apply scale-[0.63] select-none;
+  }
 
   /* Font style */
   .BaseFamily {

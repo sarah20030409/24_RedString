@@ -5,7 +5,7 @@ import goldBall02 from "../../../assets/imgs/about/Goal.webp"
 import goldBall03 from "../../../assets/imgs/about/AboutTsaiYin.webp"
 
 export default function AboutSection02() {
-    const [selectedNumber,setSelectedNumber] = useState(3);
+    const [selectedNumber,setSelectedNumber] = useState(0);
 
     const targetRef = useRef();
     const handleOpen = (number) => {

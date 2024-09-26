@@ -9,12 +9,12 @@ export default function Footer(){
         <div className=" bg-right bg-contain bg-no-repeat overflow-hidden" style={{backgroundImage: `url(${footerCloud})`}}>
             <div className="border-y-[0.7px] border-solid border-RSgoldLight flex justify-between items-end py-10 px-[10%] max-md:block " >
                 <div data-aos="fade-right">
-                    <p className="footerText py-1 ">總召 顏冠穎 0986-810-518</p>
-                    <p className="footerText py-1">副召 楊詠絮 0933-216-521</p>
-                    <p className="footerText pt-6">公關</p>
-                    <p className="footerText py-1">陳瑋傑 0968-111-624</p>
-                    <p className="footerText py-1">彭康齊 0983-703-961</p>
-                    <p className="footerText pt-6">赤弦獎官方gmail : ntutredstring@gmail.com</p>
+                    <p className="footerText py-1 no-underline">總召 顏冠穎 0986-810-518</p>
+                    <p className="footerText py-1 no-underline">副召 楊詠絮 0933-216-521</p>
+                    <p className="footerText pt-6 no-underline">公關</p>
+                    <p className="footerText py-1 no-underline">陳瑋傑 0968-111-624</p>
+                    <p className="footerText py-1 no-underline">彭康齊 0983-703-961</p>
+                    <p className="footerText pt-6 no-underline">赤弦獎官方gmail : ntutredstring@gmail.com</p>
                 </div>
                 <div className="flex justify-center  place-items-end max-md:justify-start max-md:pt-10" data-aos="fade-left">
                     <a href="https://www.instagram.com/redstring_24th?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer"><img className="w-10" src={IGicon} alt="Red String" /></a>
