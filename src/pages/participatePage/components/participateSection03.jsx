@@ -2,37 +2,64 @@ import React from "react";
 import goldFrame01 from "../../../assets/imgs//participate/goldFrame01.webp";
 import goldFrame02 from "../../../assets/imgs//participate/goldFrame02.webp";
 import bgCloud from "../../../assets/imgs/participate/bgCloudImg.png";
-import redBgImg from "../../../assets/imgs/participate/redBgDot.png"
-import titleFrame from "../../../assets/imgs/homePage/sction01/section01TextFrame.svg"
+import redBgImg from "../../../assets/imgs/participate/redBgDot.png";
+import titleFrame from "../../../assets/imgs/homePage/sction01/section01TextFrame.svg";
 
 export default function ParticipateSection03() {
   return (
     <div className="pt-40 max-md:pt-32">
-        <h1 data-aos="fade-up" className="SectionTitle text-center tracking-[5px] pb-20 max-md:pb-12">交通方式</h1>
-        <div className="flex justify-center max-md:block ">
-            <img className="w-[40%] px-7 max-lg:w-[50%] max-lg:px-5 max-md:items-center max-md:mx-auto max-md:py-4 max-md:w-[80%]" src={goldFrame01} alt="赤弦獎"/>
-            <img className="w-[40%] px-7 max-lg:w-[50%] max-lg:px-5 max-md:items-center max-md:mx-auto max-md:py-4 max-md:w-[80%]" src={goldFrame02} alt="赤弦獎"/>
-        </div>
+      <h1 className="SectionTitle text-center tracking-[5px] pb-20 max-md:pb-5">
+        交通方式
+      </h1>
+      <div className="flex justify-center max-md:block ">
+        <img
+          className="w-[40%] px-7 max-lg:w-[50%] max-lg:px-5 max-md:items-center max-md:mx-auto max-md:py-4 max-md:w-[85%]"
+          src={goldFrame01}
+          alt="赤弦獎"
+        />
+        <img
+          className="w-[40%] px-7 max-lg:w-[50%] max-lg:px-5 max-md:items-center max-md:mx-auto max-md:py-4 max-md:w-[85%]"
+          src={goldFrame02}
+          alt="赤弦獎"
+        />
+      </div>
 
-        <div className="bg-contain bg-no-repeat bg-center py-52 mb-14 max-md:py-32" style={{ backgroundImage: `url(${redBgImg})` }}>
-            <div data-aos="fade" className="bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${bgCloud})` }}>
-            <div className="flex justify-center">
-            <div className="bg-contain bg-no-repeat bg-center flex justify-center w-[260px] p-1 m-1 mb-5" style={{ backgroundImage: `url(${titleFrame})` }}>
-                <h1 className="SectionTitle">詳細地址</h1>
+      <div
+        className="bg-contain bg-no-repeat bg-center py-52 mb-14 max-md:py-28"
+        style={{ backgroundImage: `url(${redBgImg})` }}
+      >
+        <div
+          data-aos="fade"
+          className="bg-cover bg-no-repeat bg-center"
+          style={{ backgroundImage: `url(${bgCloud})` }}
+        >
+          <div className="flex justify-center">
+            <div
+              className="bg-contain bg-no-repeat bg-center flex justify-center w-[260px] p-1 m-1 mb-5"
+              style={{ backgroundImage: `url(${titleFrame})` }}
+            >
+              <h1 className="SectionTitle">詳細地址</h1>
             </div>
-            </div>
-            <p className="MediumTitle text-center text-white">台北市大安區忠孝東路三段一號</p>
+          </div>
+          <p className="MediumTitle text-center text-white">
+            台北市大安區忠孝東路三段一號
+          </p>
 
-            <div className="flex justify-center pt-24">
-            <div className="bg-contain bg-no-repeat bg-center flex justify-center w-[260px] p-1 m-1 mb-5" style={{ backgroundImage: `url(${titleFrame})` }}>
-                <h1 className="SectionTitle">初賽地點</h1>
+          <div className="flex justify-center pt-24">
+            <div
+              className="bg-contain bg-no-repeat bg-center flex justify-center w-[260px] p-1 m-1 mb-5"
+              style={{ backgroundImage: `url(${titleFrame})` }}
+            >
+              <h1 className="SectionTitle">初賽地點</h1>
             </div>
-            </div>
-            <p className="MediumTitle text-center text-white">臺北科技大學 中正館紀念館一樓</p>
-            </div>
+          </div>
+          <p className="MediumTitle text-center text-white">
+            臺北科技大學 中正館紀念館一樓
+          </p>
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
 // function TrafficFrame({ listNum }) {

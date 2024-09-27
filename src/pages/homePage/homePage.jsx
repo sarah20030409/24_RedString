@@ -6,15 +6,15 @@ import HomeSection2 from "./components/homeSection2";
 export default function HomePage() {
   return (
     <div>
-    <div className="px-[7%]">
-      <HomeBanner  />
-    </div>
-    <div className="pt-[8%] px-[5%]">
-      <HomeSection1 />
-    </div>
-    <div>
-      <HomeSection2 />
-    </div>
+      <div className="px-[7%]">
+        <HomeBanner />
+      </div>
+      <div className="pt-[8%] px-[5%]">
+        <HomeSection1 />
+      </div>
+      <div>
+        <HomeSection2 />
+      </div>
     </div>
   );
 }

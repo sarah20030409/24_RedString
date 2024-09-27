@@ -17,12 +17,9 @@ import PImg06 from "../../../assets/imgs/participate/participateImg06.webp";
 
 export default function ParticipateSection02() {
   return (
-    <div className="px-[10%] pt-52 max-md:pt-40">
+    <div className="px-[10%] pt-52 max-md:pt-40 max-md:px-[6%]">
       <div>
-        <h1
-          data-aos="fade-up"
-          className="SectionTitle text-center tracking-[5px] -mb-[50px]"
-        >
+        <h1 className="SectionTitle text-center tracking-[5px] -mb-[60px] max-md:-mb-[35px]">
           報名流程
         </h1>
       </div>
@@ -58,7 +55,7 @@ export default function ParticipateSection02() {
           <ImgList imgNum={5} />
         </SwiperSlide>
       </Swiper>
-      <div className="flex justify-center mt-14">
+      <div className="flex justify-center mt-14 max-md:mt-8">
         <a
           href="https://line.me/R/ti/p/11FZvoRuwx"
           target="_blank"
