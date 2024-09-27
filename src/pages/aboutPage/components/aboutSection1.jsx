@@ -13,14 +13,14 @@ export default function AboutSection1() {
       <div className="flex justify-center mb-12 max-md:mb-8">
         <div
           data-aos="fade"
-          className="bg-contain bg-no-repeat bg-center flex justify-center w-[240px] h-full p-1 m-1"
+          className="bg-contain bg-no-repeat bg-center flex justify-center w-[280px] h-full p-1 m-1"
           style={{ backgroundImage: `url(${titleFrame})` }}
         >
           <h1 className="SectionTitle ">醉 聲</h1>
         </div>
       </div>
       <div>
-        <div className="absolute left-0 w-[28%] max-md:w-[50%] max-md:opacity-55">
+        <div className="absolute left-0 w-[28%] max-md:w-[50%] max-md:hidden">
           <img src={redLeft} alt="red string" />
         </div>
         <div data-aos="fade">
@@ -49,7 +49,7 @@ export default function AboutSection1() {
             你我，沈醉於聲。
           </p>
         </div>
-        <div className="absolute right-0 w-[28%] -bottom-[70%] max-lg:-bottom-[40%] max-lg:opacity-60 max-lg:w-[35%] max-md:-bottom-[30%] max-md:w-[50%]">
+        <div className="absolute right-0 w-[28%] -bottom-[70%] max-lg:-bottom-[40%] max-lg:opacity-60 max-lg:w-[35%] max-md:hidden">
           <img src={redRight} alt="red string" />
         </div>
       </div>

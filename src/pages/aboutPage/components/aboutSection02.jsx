@@ -18,7 +18,7 @@ export default function AboutSection02() {
   };
 
   return (
-    <div className="pt-56 pb-48 max-lg:pt-38 max-lg:pb-40 max-md:pt-32 max-md:pb-30">
+    <div className="pt-56 pb-48 max-lg:pt-38 max-lg:pb-40 max-md:pt-32 max-md:pb-28">
       <div className="flex justify-around px-[15%]  max-lg:px-[10%] max-md:px-[5%]">
         <div
           className="w-52 hover:cursor-pointer hover:scale-105 max-lg:w-[24%] max-md:w-[27%]"

@@ -48,7 +48,7 @@ export default function HomeBanner() {
       </div>
       <div data-aos="fade-up" className="pt-24 max-lg:pt-20 max-xs:pt-10">
         <h1 className="MediumTitle text-white text-center ">
-          赤弦獎｜第貳十肆屆紅樓琴緣民歌比賽
+          赤弦獎｜第貳拾肆屆紅樓琴緣民歌比賽
         </h1>
       </div>
     </div>

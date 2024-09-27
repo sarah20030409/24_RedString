@@ -8,7 +8,10 @@ import titleFrame from "../../../assets/imgs/homePage/sction01/section01TextFram
 export default function ParticipateSection03() {
   return (
     <div className="pt-40 max-md:pt-32">
-      <h1 className="SectionTitle text-center tracking-[5px] pb-20 max-md:pb-5">
+      <h1
+        data-aos="fade-up"
+        className="SectionTitle text-center tracking-[5px] pb-20 max-md:pb-5"
+      >
         交通方式
       </h1>
       <div className="flex justify-center max-md:block ">
@@ -54,7 +57,7 @@ export default function ParticipateSection03() {
             </div>
           </div>
           <p className="MediumTitle text-center text-white">
-            臺北科技大學 中正館紀念館一樓
+            國立臺北科技大學中正館一樓
           </p>
         </div>
       </div>

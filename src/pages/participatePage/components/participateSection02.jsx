@@ -19,7 +19,10 @@ export default function ParticipateSection02() {
   return (
     <div className="px-[10%] pt-52 max-md:pt-40 max-md:px-[6%]">
       <div>
-        <h1 className="SectionTitle text-center tracking-[5px] -mb-[60px] max-md:-mb-[35px]">
+        <h1
+          data-aos="fade-up"
+          className="SectionTitle text-center tracking-[5px] -mb-[60px] max-md:-mb-[35px]"
+        >
           報名流程
         </h1>
       </div>
