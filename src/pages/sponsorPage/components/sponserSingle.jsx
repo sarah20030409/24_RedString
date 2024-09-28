@@ -50,7 +50,7 @@ export default function SponserSingle({ sponderNum }) {
   const SponserLink = [
     "https://www.91pu.com.tw/index.html",
     "https://www.eliteformosa.com",
-    "#",
+    "https://publuu.com/flipbook-maker/#nle2_623391_1392266",
     "#",
     "https://www.twincn.com/item.aspx?no=84287387#google_vignette",
     "https://www.must.org.tw/tw/members/index.aspx",
