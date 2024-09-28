@@ -20,10 +20,10 @@ export default function HomeSection1() {
       >
         <div className="flex justify-center">
           <div
-            className="bg-contain bg-no-repeat bg-center flex justify-center w-[300px] p-1 m-1"
+            className="bg-contain bg-no-repeat bg-center flex justify-center w-[300px] "
             style={{ backgroundImage: `url(${titleFrame})` }}
           >
-            <h1 className="SectionTitle">比賽資訊</h1>
+            <h1 className="SectionTitle text-nowrap p-1 m-1">比賽資訊</h1>
           </div>
         </div>
 

@@ -13,10 +13,10 @@ export default function AboutSection1() {
       <div className="flex justify-center mb-12 max-md:mb-8">
         <div
           data-aos="fade"
-          className="bg-contain bg-no-repeat bg-center flex justify-center w-[280px] h-full p-1 m-1"
+          className="bg-contain bg-no-repeat bg-center flex justify-center w-[280px] h-full"
           style={{ backgroundImage: `url(${titleFrame})` }}
         >
-          <h1 className="SectionTitle ">醉 聲</h1>
+          <h1 className="SectionTitle p-1 m-1">醉 聲</h1>
         </div>
       </div>
       <div>

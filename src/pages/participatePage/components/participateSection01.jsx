@@ -15,10 +15,12 @@ export default function ParticipateSection01() {
         <div className="flex justify-center pb-14 max-md:pb-8">
           <div
             data-aos="fade"
-            className="bg-contain bg-no-repeat bg-center flex justify-center w-[420px] p-1 m-1"
+            className="bg-contain bg-no-repeat bg-center flex justify-center w-[420px] "
             style={{ backgroundImage: `url(${titleFrame})` }}
           >
-            <h1 className="SectionTitle tracking-[5px]">24屆赤弦獎參賽簡章</h1>
+            <h1 className="SectionTitle tracking-[5px] p-1 m-1">
+              24屆赤弦獎參賽簡章
+            </h1>
           </div>
         </div>
         <div className="flex justify-center">
@@ -27,7 +29,7 @@ export default function ParticipateSection01() {
               className="ButtonStyle"
               style={{ backgroundImage: `url(${blurBtn})` }}
             >
-              <p className="ButtonTextStyle">點擊下載</p>
+              <p className="ButtonTextStyle text-nowrap">點擊下載</p>
             </button>
           </a>
         </div>
@@ -35,10 +37,10 @@ export default function ParticipateSection01() {
         <div className="flex justify-center pb-14 mt-32 max-md:pb-8 max-md:mt-24">
           <div
             data-aos="fade"
-            className="bg-contain bg-no-repeat bg-center flex justify-center w-[440px] p-1 m-1"
+            className="bg-contain bg-no-repeat bg-center flex justify-center w-[440px]"
             style={{ backgroundImage: `url(${titleFrame})` }}
           >
-            <h1 className="SectionTitle tracking-[3px]">
+            <h1 className="SectionTitle tracking-[3px] p-1 m-1">
               24屆赤弦獎初賽報名須知
             </h1>
           </div>
@@ -49,7 +51,7 @@ export default function ParticipateSection01() {
               className="ButtonStyle"
               style={{ backgroundImage: `url(${blurBtn})` }}
             >
-              <p className="ButtonTextStyle">點擊下載</p>
+              <p className="ButtonTextStyle text-nowrap">點擊下載</p>
             </button>
           </a>
         </div>

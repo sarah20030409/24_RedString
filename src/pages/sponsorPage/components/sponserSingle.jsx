@@ -47,14 +47,33 @@ export default function SponserSingle({ sponderNum }) {
     "Firebug Studio\n噴火蟲工作室",
     "憘樂音樂",
   ];
+  const SponserLink = [
+    "https://www.91pu.com.tw/index.html",
+    "https://www.eliteformosa.com",
+    "#",
+    "#",
+    "https://www.twincn.com/item.aspx?no=84287387#google_vignette",
+    "https://www.must.org.tw/tw/members/index.aspx",
+    "https://www.queenshop.com.tw/",
+    "https://www.wuwow.tw/event/regular_cycle_mindset/?m=partnership_ntut_website_longterm&utm_source=_website&utm_medium=partnership_ntut&utm_campaign=regular_cycle_mindset",
+    "https://www.backbone.tw/?utm_source=facebook&utm_medium=post&utm_campaign=bk_redstring",
+    "#",
+    "https://himfoundation.org.tw/",
+  ];
 
   return (
-    <div className="w-56 mx-[2%] my-16 max-lg:w-48 max-lg:mx-[1%] max-lg:my-12 max-md:w-44 max-md:my-8">
-      <img
-        className="w-48 items-center mx-auto max-lg:w-40 max-md:w-36"
-        src={SponsersImg[sponderNum]}
-        alt="red string"
-      />
+    <div className="w-56 mx-[2%] my-16 max-lg:w-48 max-lg:mx-[1%] max-lg:my-12 max-md:w-44 max-md:my-8 hover:scale-105">
+      <a
+        href={SponserLink[sponderNum]}
+        target={SponserLink[sponderNum] === "#" ? "_self" : "_blank"}
+        rel="noreferrer"
+      >
+        <img
+          className="w-48 items-center mx-auto max-lg:w-40 max-md:w-36"
+          src={SponsersImg[sponderNum]}
+          alt="red string"
+        />
+      </a>
       <p className="PoetryText text-center mt-6 max-md:mt-4">
         {SponserName[sponderNum].split("\n").map((line, index) => (
           <span key={index}>

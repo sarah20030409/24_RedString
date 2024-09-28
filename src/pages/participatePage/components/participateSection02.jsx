@@ -21,7 +21,7 @@ export default function ParticipateSection02() {
       <div>
         <h1
           data-aos="fade-up"
-          className="SectionTitle text-center tracking-[5px] -mb-[60px] max-md:-mb-[35px]"
+          className="SectionTitle text-center tracking-[5px] -mb-[60px] max-md:-mb-[35px] text-nowrap"
         >
           報名流程
         </h1>
