@@ -18,7 +18,7 @@ export default function ParticipateSection01() {
             className="bg-contain bg-no-repeat bg-center flex justify-center w-[420px] "
             style={{ backgroundImage: `url(${titleFrame})` }}
           >
-            <h1 className="SectionTitle tracking-[5px] p-1 m-1">
+            <h1 className="SectionTitle tracking-[5px] p-[1.5px] m-[2px]">
               24屆赤弦獎參賽簡章
             </h1>
           </div>
@@ -40,7 +40,7 @@ export default function ParticipateSection01() {
             className="bg-contain bg-no-repeat bg-center flex justify-center w-[440px]"
             style={{ backgroundImage: `url(${titleFrame})` }}
           >
-            <h1 className="SectionTitle tracking-[3px] p-1 m-1">
+            <h1 className="SectionTitle tracking-[3px] p-[1.5px] m-[2px]">
               24屆赤弦獎初賽報名須知
             </h1>
           </div>

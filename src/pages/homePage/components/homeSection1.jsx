@@ -23,7 +23,9 @@ export default function HomeSection1() {
             className="bg-contain bg-no-repeat bg-center flex justify-center w-[300px] "
             style={{ backgroundImage: `url(${titleFrame})` }}
           >
-            <h1 className="SectionTitle text-nowrap p-1 m-1">比賽資訊</h1>
+            <h1 className="SectionTitle text-nowrap p-[1.5px] m-[2px]">
+              比賽資訊
+            </h1>
           </div>
         </div>
 

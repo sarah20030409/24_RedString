@@ -16,7 +16,7 @@ export default function AboutSection1() {
           className="bg-contain bg-no-repeat bg-center flex justify-center w-[280px] h-full"
           style={{ backgroundImage: `url(${titleFrame})` }}
         >
-          <h1 className="SectionTitle p-1 m-1">醉 聲</h1>
+          <h1 className="SectionTitle p-[1.5px] m-[2px]">醉 聲</h1>
         </div>
       </div>
       <div>
