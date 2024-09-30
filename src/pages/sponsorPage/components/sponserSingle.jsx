@@ -67,6 +67,11 @@ export default function SponserSingle({ sponderNum }) {
         href={SponserLink[sponderNum]}
         target={SponserLink[sponderNum] === "#" ? "_self" : "_blank"}
         rel="noreferrer"
+        onClick={(e) => {
+          if (SponserLink[sponderNum] === "#") {
+            e.preventDefault();
+          }
+        }}
       >
         <img
           className="w-48 items-center mx-auto max-lg:w-40 max-md:w-36"
