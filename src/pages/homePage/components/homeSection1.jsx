@@ -20,7 +20,7 @@ export default function HomeSection1() {
       >
         <div className="flex justify-center">
           <div
-            className="bg-contain bg-no-repeat bg-center px-14 py-8"
+            className="bg-contain bg-no-repeat bg-center px-14 py-8 pb-9"
             style={{ backgroundImage: `url(${titleFrame})` }}
           >
             <h1 className="SectionTitle text-nowrap tracking-[5px] ">

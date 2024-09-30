@@ -10,13 +10,13 @@ export default function AboutSection1() {
       className="bg-contain bg-no-repeat bg-center "
       style={{ backgroundImage: `url(${bgCloud})` }}
     >
-      <div className="flex justify-center mb-12 max-md:mb-8">
+      <div className="flex justify-center mb-5 max-md:mb-8">
         <div
           data-aos="fade"
-          className="bg-contain bg-no-repeat bg-center flex justify-center h-full px-24 pb-1"
+          className="bg-contain bg-no-repeat bg-center px-20 py-8 pb-9"
           style={{ backgroundImage: `url(${titleFrame})` }}
         >
-          <h1 className="SectionTitle p-[1.5px]">醉 聲</h1>
+          <h1 className="SectionTitle ">醉 聲</h1>
         </div>
       </div>
       <div>
