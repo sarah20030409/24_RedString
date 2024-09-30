@@ -51,13 +51,13 @@ export default function SponserSingle({ sponderNum }) {
     "https://www.91pu.com.tw/index.html",
     "https://www.eliteformosa.com",
     "https://drive.google.com/file/d/1yNZoEMI56UQhDwUAGSfS29MmGLy022-8/view?usp=drivesdk",
-    "#",
+    "none",
     "https://www.twincn.com/item.aspx?no=84287387#google_vignette",
     "https://www.must.org.tw/tw/members/index.aspx",
     "https://www.queenshop.com.tw/",
     "https://www.wuwow.tw/event/regular_cycle_mindset/?m=partnership_ntut_website_longterm&utm_source=_website&utm_medium=partnership_ntut&utm_campaign=regular_cycle_mindset",
     "https://www.backbone.tw/?utm_source=facebook&utm_medium=post&utm_campaign=bk_redstring",
-    "#",
+    "none",
     "https://himfoundation.org.tw/",
   ];
 
@@ -65,10 +65,10 @@ export default function SponserSingle({ sponderNum }) {
     <div className="w-56 mx-[2%] my-16 max-lg:w-48 max-lg:mx-[1%] max-lg:my-12 max-md:w-44 max-md:my-8 hover:scale-105">
       <a
         href={SponserLink[sponderNum]}
-        target={SponserLink[sponderNum] === "#" ? "_self" : "_blank"}
+        target="_blank"
         rel="noreferrer"
         onClick={(e) => {
-          if (SponserLink[sponderNum] === "#") {
+          if (SponserLink[sponderNum] === "none") {
             e.preventDefault();
           }
         }}
