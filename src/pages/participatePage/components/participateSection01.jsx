@@ -15,10 +15,10 @@ export default function ParticipateSection01() {
         <div className="flex justify-center pb-14 max-md:pb-8">
           <div
             data-aos="fade"
-            className="bg-contain bg-no-repeat bg-center flex justify-center w-[420px] "
+            className="bg-contain bg-no-repeat bg-center flex justify-center "
             style={{ backgroundImage: `url(${titleFrame})` }}
           >
-            <h1 className="SectionTitle tracking-[5px] p-[1.5px] m-[2px]">
+            <h1 className="SectionTitle tracking-[5px] mx-[50px]">
               24屆赤弦獎參賽簡章
             </h1>
           </div>
@@ -37,10 +37,10 @@ export default function ParticipateSection01() {
         <div className="flex justify-center pb-14 mt-32 max-md:pb-8 max-md:mt-24">
           <div
             data-aos="fade"
-            className="bg-contain bg-no-repeat bg-center flex justify-center w-[440px]"
+            className="bg-contain bg-no-repeat bg-center flex justify-center"
             style={{ backgroundImage: `url(${titleFrame})` }}
           >
-            <h1 className="SectionTitle tracking-[3px] p-[1.5px] m-[2px]">
+            <h1 className="SectionTitle tracking-[3px] p-[1.5px] mx-[45px]">
               24屆赤弦獎初賽報名須知
             </h1>
           </div>
