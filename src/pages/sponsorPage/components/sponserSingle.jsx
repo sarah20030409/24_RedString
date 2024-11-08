@@ -57,7 +57,7 @@ export default function SponserSingle({ sponderNum }) {
     "https://www.queenshop.com.tw/",
     "https://www.wuwow.tw/event/regular_cycle_mindset/?m=partnership_ntut_website_longterm&utm_source=_website&utm_medium=partnership_ntut&utm_campaign=regular_cycle_mindset",
     "https://www.backbone.tw/?utm_source=facebook&utm_medium=post&utm_campaign=bk_redstring",
-    "none",
+    "https://tw.transcend-info.com/",
     "https://himfoundation.org.tw/",
   ];
 

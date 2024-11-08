@@ -15,18 +15,41 @@ export default function ParticipateSection03() {
         交通方式
       </h1>
       <div className="flex justify-center max-md:block ">
+        {/* 01 忠孝門路線 */}
         <img
           className="w-[40%] px-7 max-lg:w-[50%] max-lg:px-5 max-md:items-center max-md:mx-auto max-md:py-4 max-md:w-[85%]"
           src={goldFrame01}
           alt="赤弦獎"
         />
+        {/* 02 新生門路線 */}
         <img
           className="w-[40%] px-7 max-lg:w-[50%] max-lg:px-5 max-md:items-center max-md:mx-auto max-md:py-4 max-md:w-[85%]"
           src={goldFrame02}
           alt="赤弦獎"
         />
       </div>
-
+      <div className="flex justify-center w-full  pt-44 max-lg:pt-16 ">
+        <iframe
+          className="w-full max-md:hidden"
+          height={700}
+          src="https://www.youtube.com/embed/NVNC1BzmDE8?si=3Z7bVwJSMYXxpyT3"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          className="w-full md:hidden"
+          height={400}
+          src="https://www.youtube.com/embed/NVNC1BzmDE8?si=3Z7bVwJSMYXxpyT3"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
       <div
         className="bg-contain bg-no-repeat bg-center py-52 mb-14 max-md:py-28"
         style={{ backgroundImage: `url(${redBgImg})` }}
