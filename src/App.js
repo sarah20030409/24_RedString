@@ -4,6 +4,7 @@ import HomePage from "./pages/homePage/homePage";
 import AboutPage from "./pages/aboutPage/aboutPage";
 import ParticipatePage from "./pages/participatePage/ParticipatePage";
 import SponsorPage from "./pages/sponsorPage/SponsorPage";
+import InterviewPage from "./pages/interviewPage/InterviewPage";
 import LodingPage from "./pages/loadingPage/loadingPage";
 import Footer from "./pages/globalComp/footer/FooterComp";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -11,11 +12,11 @@ import ScrollToTop from "./pages/globalComp/scrollToTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const imageToPreload = [
-  "../../assets/imgs/homepage/BigBannerRedString.webp",
-  "../../assets/imgs/homepage/BgCloud04.webp",
-  "../../assets/imgs/banner/RedCircle.png",
-];
+import preLoadImg01 from "../src/assets/imgs/homePage/BigBannerRedString.webp";
+import preLoadImg02 from "../src/assets/imgs/homePage/BgCloud04.webp";
+import preLoadImg03 from "../src/assets/imgs/banner/RedCircle.png";
+
+const imageToPreload = [preLoadImg01, preLoadImg02, preLoadImg03];
 
 export default function App() {
   // AOS init
@@ -79,6 +80,7 @@ export default function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/info" element={<ParticipatePage />} />
             <Route path="/sponsor" element={<SponsorPage />} />
+            <Route path="/interview" element={<InterviewPage />} />
           </Routes>
         </div>
         <footer>

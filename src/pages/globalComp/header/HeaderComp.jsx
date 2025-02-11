@@ -15,6 +15,7 @@ export default function Header() {
     { to: "/about", text: "關於赤弦" },
     { to: "/info", text: "比賽須知" },
     { to: "/sponsor", text: "贊助廠商" },
+    { to: "/interview", text: "赤弦專訪" },
   ];
   return (
     <div className="fixed top-0 w-full h-20 bg-white z-50 px-[10%] py-1 max-md:h-[60px] max-md:-mt-[15px] ">

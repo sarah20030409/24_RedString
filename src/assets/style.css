@@ -62,6 +62,12 @@
   .TsaiYin {
     @apply tracking-[5px] text-2xl text-[#949494] font-medium BaseFamily max-lg:text-xl;
   }
+  .InterviewTitle {
+    @apply tracking-[5px] leading-10 text-white text-2xl font-bold BaseFamily max-lg:text-xl max-lg:tracking-[3px] max-sm:text-lg;
+  }
+  .InterviewParagraph {
+    @apply tracking-[2.5px] text-white text-base font-light BaseFamily leading-7;
+  }
 }
 
 @layer base {
